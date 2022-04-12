@@ -32,7 +32,7 @@ const rus = {
 function Shoe() {
   const ref = useRef()
   const snap = useProxy(state)
-  const { nodes, materials } = useGLTF('shoe-draco.glb')
+  const { nodes, materials } = useGLTF('https://bairock.github.io/shoes/royal_esplanade_1k.hdr')
 
   useFrame((state) => {
     const t = state.clock.getElapsedTime()
