@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bairock.github.io/notes",
   "name": "shoes",
   "version": "0.0.1",
   "main": "src/index.js",
@@ -13,6 +14,8 @@
     "valtio": "0.4.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -23,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
