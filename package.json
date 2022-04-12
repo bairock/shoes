@@ -1,5 +1,6 @@
 {
   "homepage": "https://bairock.github.io/shoes",
+  "proxy": "https://bairock.github.io/shoes",
   "name": "shoes",
   "version": "0.0.1",
   "main": "src/index.js",
